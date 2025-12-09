@@ -1,0 +1,87 @@
+/* Auth Buttons Container */
+.auth-buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+  z-index: 1500;
+}
+
+/* Auth Button */
+.auth-btn {
+  padding: 12px 20px;
+  border: 3px solid #8B0000;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: inherit;
+}
+
+.auth-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.auth-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Button */
+.auth-btn-login {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+  color: white;
+  border-color: #1a3a5c;
+}
+
+.auth-btn-login:hover {
+  background: linear-gradient(135deg, #5aa3f5 0%, #4a90e2 100%);
+}
+
+/* Register Button */
+.auth-btn-register {
+  background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+  color: white;
+  border-color: #145a32;
+}
+
+.auth-btn-register:hover {
+  background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+}
+
+/* Logout Button */
+.auth-btn-logout {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  border-color: #922b21;
+}
+
+.auth-btn-logout:hover {
+  background: linear-gradient(135deg, #ec7063 0%, #e74c3c 100%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-buttons {
+    top: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+
+  .auth-btn {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+}

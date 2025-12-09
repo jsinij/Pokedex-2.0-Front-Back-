@@ -1,0 +1,56 @@
+/* Admin Button */
+.admin-btn {
+  position: fixed;
+  top: 20px;
+  right: 190px; /* Posicionado a la izquierda del botón logout */
+  padding: 12px 18px;
+  border: 3px solid #8B0000;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: inherit;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+  color: white;
+  border-color: #cc0000;
+  z-index: 1400;
+}
+
+.admin-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(135deg, #ff7f7f 0%, #ff6b6b 100%);
+}
+
+.admin-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .admin-btn {
+    right: 170px;
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-btn {
+    right: 140px;
+    padding: 9px 12px;
+    font-size: 11px;
+  }
+}

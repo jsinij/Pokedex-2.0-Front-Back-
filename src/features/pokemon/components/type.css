@@ -1,0 +1,64 @@
+/* Colores por tipo, tomados del estilo clásico */
+.type-normal {
+  background: #a8a77a;
+  color: #111;
+}
+.type-fire {
+  background: #ee8130;
+}
+.type-water {
+  background: #6390f0;
+}
+.type-electric {
+  background: #f7d02c;
+  color: #111;
+}
+.type-grass {
+  background: #7ac74c;
+  color: #111;
+}
+.type-ice {
+  background: #96d9d6;
+  color: #111;
+}
+.type-fighting {
+  background: #c22e28;
+}
+.type-poison {
+  background: #a33ea1;
+}
+.type-ground {
+  background: #e2bf65;
+  color: #111;
+}
+.type-flying {
+  background: #a98ff3;
+}
+.type-psychic {
+  background: #f95587;
+}
+.type-bug {
+  background: #a6b91a;
+  color: #111;
+}
+.type-rock {
+  background: #b6a136;
+  color: #111;
+}
+.type-ghost {
+  background: #735797;
+}
+.type-dragon {
+  background: #6f35fc;
+}
+.type-dark {
+  background: #705746;
+}
+.type-steel {
+  background: #b7b7ce;
+  color: #111;
+}
+.type-fairy {
+  background: #d685ad;
+}
+
