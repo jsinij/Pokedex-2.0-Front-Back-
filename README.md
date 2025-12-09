@@ -27,7 +27,7 @@ Una aplicación full-stack moderna para explorar, crear y gestionar Pokémon per
 - **bcrypt** para hash de contraseñas
 - **JWT** para autenticación
 ---
-###Credenciales por Defecto
+### Credenciales por Defecto
 Primer Administrador:
 
 Email: juan@unal.edu.co
